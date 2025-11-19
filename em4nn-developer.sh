@@ -29,7 +29,7 @@ bios_boot() {
     clear_screen
     echo -e "\033[96m"
     slow_print "╔══════════════════════════════════════════════╗" 0.002
-    slow_print "║      Em4nn Hacking Tool – Firmware v7.4      ║" 0.002
+    slow_print "║      Em4nn Hacking Tool – Premium  v7.4      ║" 0.002
     slow_print "╚══════════════════════════════════════════════╝" 0.002
     echo -e "\033[0m"
 
