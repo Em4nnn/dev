@@ -74,7 +74,7 @@ bios_boot() {
     echo
     slow_print "Güvenlik Anahtarları doğrulanıyor..." 0.1
     sleep 0.09
-    slow_print "[██████████████████████████] 100%" 0.05
+    slow_print "[██████████████████████████] 100%" 0.15
     sleep 0.1
 
     clear_screen
@@ -160,7 +160,7 @@ glitch_dashboard() {
         for ((j=i;j<20;j++)); do bar+=" "; done
         bar+="]"
         echo -ne "\033[95m$bar\033[0m\r"
-        sleep 0.2
+        sleep 0.7
     done
     echo
 }
